@@ -590,7 +590,8 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
     });
 
     if (data) {
-      setIsChatFlowAvailableToStream(data?.isStreaming ?? false);
+      // setIsChatFlowAvailableToStream(data?.isStreaming ?? false);
+      setIsChatFlowAvailableToStream(false);
     }
 
     // Get the chatbotConfig
